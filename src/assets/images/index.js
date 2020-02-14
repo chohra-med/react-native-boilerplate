@@ -1,0 +1,9 @@
+export const SAMPLE_COVER = require('./sample_cover.jpeg');
+export const SAMPLE_ADS = require('./sample_ads.png');
+export const SAMPLE_KIDS = require('./sample_kids.jpeg');
+export const SAMPLE_MAKEUP = require('./sample_make_up.jpeg');
+export const SAMPLE_MODEL = require('./sample_model.jpeg');
+export const SAMPLE_SHOP_LOGO = require('./sample_shop_logo.png');
+export const SAMPLE_DRESS = require('./sample_dress.jpeg');
+export const SAMPLE_AVATAR = require('./sample_avatar.jpeg');
+// export const SAMPLE_ = require('./');

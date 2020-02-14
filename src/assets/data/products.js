@@ -1,0 +1,88 @@
+import {SAMPLE_DRESS} from '../images';
+
+export default [
+  {
+    title: 'Dress',
+    image: SAMPLE_DRESS,
+    old_price: 59.39,
+    price: 59.39,
+    isLiked: false,
+  },
+  {
+    title: 'Jacket',
+    image: SAMPLE_DRESS,
+    old_price: 59.39,
+    price: 59.39,
+    isLiked: true,
+  },
+  {
+    title: 'Jacket',
+    image: SAMPLE_DRESS,
+    old_price: 59.39,
+    price: 59.39,
+    isLiked: true,
+  },
+  {
+    title: 'Dress',
+    image: SAMPLE_DRESS,
+    old_price: 59.39,
+    price: 59.39,
+    isLiked: false,
+  },
+  {
+    title: 'Jacket',
+    image: SAMPLE_DRESS,
+    old_price: 59.39,
+    price: 59.39,
+    isLiked: true,
+  },
+  {
+    title: 'Dress',
+    image: SAMPLE_DRESS,
+    old_price: 59.39,
+    price: 59.39,
+    isLiked: false,
+  },
+  {
+    title: 'Dress',
+    image: SAMPLE_DRESS,
+    old_price: 59.39,
+    price: 59.39,
+    isLiked: false,
+  },
+  {
+    title: 'Jacket',
+    image: SAMPLE_DRESS,
+    old_price: 59.39,
+    price: 59.39,
+    isLiked: true,
+  },
+  {
+    title: 'Jacket',
+    image: SAMPLE_DRESS,
+    old_price: 59.39,
+    price: 59.39,
+    isLiked: true,
+  },
+  {
+    title: 'Dress',
+    image: SAMPLE_DRESS,
+    old_price: 59.39,
+    price: 59.39,
+    isLiked: false,
+  },
+  {
+    title: 'Jacket',
+    image: SAMPLE_DRESS,
+    old_price: 59.39,
+    price: 59.39,
+    isLiked: true,
+  },
+  {
+    title: 'Dress',
+    image: SAMPLE_DRESS,
+    old_price: 59.39,
+    price: 59.39,
+    isLiked: false,
+  },
+];
