@@ -9,16 +9,15 @@ I18n.fallbacks = true;
 
 // Define the supported translations
 I18n.translations = {
-    en,
-    es,
+  en,
+  es,
 };
-
 
 // Allow RTL alignment in RTL languages
 
 // The method we'll use instead of a regular string
 export function strings(name, params = {}) {
-    return I18n.t(name, params);
+  return I18n.t(name, params);
 }
 
 export default I18n;

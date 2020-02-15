@@ -1,5 +1,5 @@
-import ROUTES from './routes';
 import {createAppContainer, createSwitchNavigator} from 'react-navigation';
+import ROUTES from './routes';
 import Starting from '../views/starting';
 import Home from '../views/home';
 

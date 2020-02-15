@@ -1,5 +1,5 @@
 const decimalFromColor = hex => {
-  const number = '0x' + hex.substring(1);
+  const number = `0x${hex.substring(1)}`;
   return parseInt(number, 16);
 };
 

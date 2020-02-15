@@ -1,8 +1,8 @@
 import React from 'react';
-import Router from './src/navigation/router';
 
 import {Provider} from 'react-redux';
 import {PersistGate} from 'redux-persist/integration/react';
+import Router from './src/navigation/router';
 import configureStore from './src/redux/configureStore';
 
 const {persistor, store} = configureStore();

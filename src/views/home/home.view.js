@@ -1,6 +1,6 @@
 import React from 'react';
-import styles from './home.style';
 import {SafeAreaView, Image, Text} from 'react-native';
+import styles from './home.style';
 import {LOGO} from '../../assets/icons';
 import {strings} from '../../locales/i18n';
 
