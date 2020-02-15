@@ -1,0 +1,9 @@
+{
+  "starting": {
+    "welcome": "Bienvenido a esta placa de reacción nativa React..",
+    "copyright": "copyright © Todos los derechos reservados 2019"
+  },
+  "home": {
+    "homeTest": "Bienvenido Home "
+  }
+}

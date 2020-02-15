@@ -1,0 +1,9 @@
+{
+  "starting": {
+    "welcome": "Welcome to this React native boilerplace…",
+    "copyright": "copyright © All Rights Reserved 2019"
+  },
+  "home": {
+    "homeTest": "Welcome  Home "
+  }
+}

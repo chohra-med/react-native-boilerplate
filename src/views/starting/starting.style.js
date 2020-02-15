@@ -1,29 +1,33 @@
-import React from 'react';
-import styles from './starting.style';
-import ROUTES from '../../navigation/routes';
+import {Dimensions, StyleSheet} from 'react-native';
 import theme from '../../theme';
-import {View, SafeAreaView, Text, Image} from 'react-native';
-import {LOGO} from '../../assets/icons';
 
-export default class Component extends React.PureComponent {
-  componentDidMount() {
-    setTimeout(() => {
-      this.props.navigation.navigate(ROUTES.FIRST);
-    }, 2500);
-  }
-
-  render() {
-    return (
-      <>
-        <SafeAreaView style={styles.container}>
-          <Image resizeMode="contain" style={styles.logo} source={LOGO} />
-          <View>
-            <Text style={styles.message}>
-              Welcome to this React native boilerplace
-            </Text>
-          </View>
-        </SafeAreaView>
-      </>
-    );
-  }
-}
+export default StyleSheet.create({
+  container: {
+    flex: 1,
+    flexDirection: 'column',
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  logo: {
+    width: Dimensions.get('window').width * 0.6,
+    height: 100,
+    position: 'absolute',
+    top: Dimensions.get('window').height * 0.25,
+    // right: 0,
+    // left: 0,
+  },
+  message: {
+    fontFamily: theme.FONT_FAMILY,
+    fontSize: 24,
+    fontWeight: theme.WEIGHT_LIGHT,
+    color: theme.SECONDARY_COLOR,
+    textAlign: 'center',
+  },
+  arMessage: {
+    fontFamily: theme.ARABIC_FONT_FAMILY,
+    fontSize: 20,
+    fontWeight: theme.WEIGHT_LIGHT,
+    color: theme.PRIMARY_COLOR,
+    textAlign: 'center',
+  },
+});
