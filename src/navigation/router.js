@@ -12,7 +12,7 @@ const App = createStackNavigator();
 export default function Router() {
   return (
     <NavigationContainer>
-      <App.Navigator headerMode="none">
+      <App.Navigator headerMode="none" initialRouteName={ROUTES.STARTING}>
         <App.Screen name={ROUTES.STARTING} component={Starting} />
         <App.Screen name={ROUTES.HOME} component={Home} />
       </App.Navigator>

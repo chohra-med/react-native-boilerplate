@@ -186,7 +186,7 @@ PODS:
     - React
   - react-native-safe-area-context (0.7.3):
     - React
-  - react-native-slider (2.0.8):
+  - react-native-slider (2.0.9):
     - React
   - React-RCTActionSheet (0.61.5):
     - React-Core/RCTActionSheetHeaders (= 0.61.5)
@@ -223,11 +223,11 @@ PODS:
     - React-cxxreact (= 0.61.5)
     - React-jsi (= 0.61.5)
     - ReactCommon/jscallinvoker (= 0.61.5)
-  - RNCAsyncStorage (1.7.1):
+  - RNCAsyncStorage (1.9.0):
     - React
   - RNCMaskedView (0.1.9):
     - React
-  - RNCPicker (1.2.0):
+  - RNCPicker (1.3.0):
     - React
   - RNGestureHandler (1.6.1):
     - React
@@ -378,7 +378,7 @@ SPEC CHECKSUMS:
   React-jsinspector: fa0ecc501688c3c4c34f28834a76302233e29dc0
   react-native-geolocation: c956aeb136625c23e0dce0467664af2c437888c9
   react-native-safe-area-context: e200d4433aba6b7e60b52da5f37af11f7a0b0392
-  react-native-slider: 3a1cfd00c9c31068251b536822f7192e8d1d6b6f
+  react-native-slider: e51492f1264d882a8815b71c5870f8978e52887d
   React-RCTActionSheet: 600b4d10e3aea0913b5a92256d2719c0cdd26d76
   React-RCTAnimation: 791a87558389c80908ed06cc5dfc5e7920dfa360
   React-RCTBlob: d89293cc0236d9cb0933d85e430b0bbe81ad1d72
@@ -389,9 +389,9 @@ SPEC CHECKSUMS:
   React-RCTText: 9ccc88273e9a3aacff5094d2175a605efa854dbe
   React-RCTVibration: a49a1f42bf8f5acf1c3e297097517c6b3af377ad
   ReactCommon: 198c7c8d3591f975e5431bec1b0b3b581aa1c5dd
-  RNCAsyncStorage: 44395cb9c7c1523104c2b499eb426ef7aff82bca
+  RNCAsyncStorage: 453cd7c335ec9ba3b877e27d02238956b76f3268
   RNCMaskedView: 71fc32d971f03b7f03d6ab6b86b730c4ee64f5b6
-  RNCPicker: 5440da9d4f36508353e4a43f3fcbb11a8ddab4a0
+  RNCPicker: 7d06ee91dff65b0bcd400ca00039051d5ddcb938
   RNGestureHandler: 8f09cd560f8d533eb36da5a6c5a843af9f056b38
   RNI18n: e2f7e76389fcc6e84f2c8733ea89b92502351fd8
   RNReanimated: 955cf4068714003d2f1a6e2bae3fb1118f359aff
